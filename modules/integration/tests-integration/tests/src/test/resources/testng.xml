@@ -22,6 +22,7 @@
             <package name="org.wso2.appserver.integration.tests.webapp.mgt"/>
             <package name="org.wso2.appserver.integration.tests.webapp.spring"/>
             <package name="org.wso2.appserver.integration.tests.webapp.virtualhost"/>
+            <package name="org.wso2.appserver.integration.tests.webapp.jsp"/>
         </packages>
     </test>
 
@@ -55,12 +56,11 @@
         </classes>
     </test>
 
-    <!-- FIXME: WSAS-1982 - Intergration Test Failure in CleanRegistryCommandTestCase -->
-    <!--<test name="carbontool-tests" preserve-order="true" parallel="false">-->
-        <!--<packages>-->
-            <!--<package name="org.wso2.appserver.integration.tests.carbontools"/>-->
-        <!--</packages>-->
-    <!--</test>-->
+    <test name="carbontool-tests" preserve-order="true" parallel="false">
+        <packages>
+            <package name="org.wso2.appserver.integration.tests.carbontools"/>
+        </packages>
+    </test>
 
     <test name="spi-fly-tests" preserve-order="true" parallel="false">
         <packages>
@@ -120,5 +120,11 @@
             <package name="org.wso2.appserver.integration.tests.security"/>
         </packages>
     </test> -->
+
+    <test name="spring3" preserve-order="true" parallel="false">
+        <packages>
+            <package name="org.wso2.appserver.integration.tests.spring" />
+        </packages>
+    </test>
 
 </suite>
