@@ -213,7 +213,7 @@
 
             <instance name="manager" type="standalone" nonBlockingTransportEnabled="false">
                 <hosts>
-                    <host type="default">203.94.95.152</host>
+                    <host type="default">192.168.57.161</host>
                 </hosts>
                 <ports>
                     <port type="http">9763</port>
@@ -224,7 +224,7 @@
             </instance>
             <instance name="worker-1" type="standalone" nonBlockingTransportEnabled="false">
                 <hosts>
-                    <host type="default">203.94.95.197</host>
+                    <host type="default">192.168.57.164</host>
                 </hosts>
                 <ports>
                     <port type="http">9763</port>
@@ -235,7 +235,7 @@
             </instance>
             <instance name="worker-2" type="standalone" nonBlockingTransportEnabled="false">
                 <hosts>
-                    <host type="default">203.94.95.198</host>
+                    <host type="default">192.168.57.165</host>
                 </hosts>
                 <ports>
                     <port type="http">9763</port>
